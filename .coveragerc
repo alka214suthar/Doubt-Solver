@@ -1,0 +1,20 @@
+[run]
+branch = True
+source =
+    backend
+omit =
+    backend/venv/*
+    backend/alembic/*
+    */tests/*
+    */__pycache__/*
+    */site-packages/*
+
+[report]
+precision = 1
+show_missing = True
+skip_covered = False
+fail_under = 70
+exclude_lines =
+    pragma: no cover
+    if TYPE_CHECKING:
+    if __name__ == .__main__.:

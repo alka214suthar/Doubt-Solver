@@ -1,0 +1,113 @@
+# =========================
+# Dependencies & build
+# =========================
+node_modules/
+dist/
+dist-ssr/
+build/
+.vite/
+*.local
+.cache/
+.turbo/
+coverage/
+coverage.xml
+*.tsbuildinfo
+
+# =========================
+# Logs
+# =========================
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# =========================
+# Environment & secrets
+# =========================
+.env
+.env.*
+!.env.example
+!**/.env.example
+*.env
+*.env.*
+!*.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+secrets/
+credentials.json
+service-account*.json
+
+# =========================
+# Python / backend
+# =========================
+venv/
+backend/venv/
+**/venv/
+.venv/
+.venv*/
+env/
+ENV/
+__pycache__/
+**/__pycache__/
+*.py[cod]
+*.pyd
+*$py.class
+*.egg-info/
+.eggs/
+*.egg
+.hypothesis/
+.nox/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.pyre/
+.pytype/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+*.sqlite3
+*.db
+
+# =========================
+# User uploads (keep folder, ignore files)
+# =========================
+backend/uploads/*
+!backend/uploads/.gitkeep
+uploads/
+
+# =========================
+# Docker / OS / editor
+# =========================
+.DS_Store
+Thumbs.db
+Desktop.ini
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# =========================
+# Misc
+# =========================
+*.bak
+*.tmp
+*.temp
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+.python-version
+
+
+.coverage
+coverage.xml
+htmlcov/
