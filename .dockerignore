@@ -9,4 +9,4 @@ dist
 backend
 Dockerfile
 docker-compose.yml
-nginx.conf
+
